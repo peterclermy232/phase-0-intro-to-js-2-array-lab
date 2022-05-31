@@ -29,8 +29,7 @@ function appendCat(name){
 }
 
 function prependCat(name){
-     const pend = [name,...cats];
-     return pend;
+     const pend = [name,...cats]
 }
 
 function removeLastCat(){
@@ -38,8 +37,3 @@ function removeLastCat(){
     return remove;
 }
 
-
-function removeFirstCat(){
-    const first = cats.slice(1);
-    return first;
-}

@@ -29,15 +29,13 @@ function appendCat(name){
 }
 
 function prependCat(name){
-     const pend = [name,...cats];
-     return pend;
+     const pend = [name,...cats]
 }
 
 function removeLastCat(){
     const remove = cats.slice(0,cats.length-1);
     return remove;
 }
-
 
 function removeFirstCat(){
     const first = cats.slice(1);

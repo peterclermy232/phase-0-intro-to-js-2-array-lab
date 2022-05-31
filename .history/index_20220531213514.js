@@ -38,7 +38,7 @@ function removeLastCat(){
     return remove;
 }
 
-
+// slice
 function removeFirstCat(){
     const first = cats.slice(1);
     return first;

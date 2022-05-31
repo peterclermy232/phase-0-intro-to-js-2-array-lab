@@ -23,23 +23,4 @@ function destructivelyRemoveFirstCat(){
     return cats;
 }
 
-function appendCat(name){
-    const name1 = [...cats,name]
-    return name1
-}
-
-function prependCat(name){
-     const pend = [name,...cats];
-     return pend;
-}
-
-function removeLastCat(){
-    const remove = cats.slice(0,cats.length-1);
-    return remove;
-}
-
-
-function removeFirstCat(){
-    const first = cats.slice(1);
-    return first;
-}
+function append

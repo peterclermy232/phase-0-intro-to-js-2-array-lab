@@ -27,7 +27,7 @@ function appendCat(name){
     const name1 = [...cats,name]
     return name1
 }
-
+//spreeding
 function prependCat(name){
      const pend = [name,...cats];
      return pend;
@@ -38,7 +38,7 @@ function removeLastCat(){
     return remove;
 }
 
-
+// slice
 function removeFirstCat(){
     const first = cats.slice(1);
     return first;
